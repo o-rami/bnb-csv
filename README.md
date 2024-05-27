@@ -1,4 +1,4 @@
-<h1 align="center">Don't Wreck My House</h1>
+<h1 align="center">B&B</h1>
 
 ## Pacing 101
 ### Day 1:
