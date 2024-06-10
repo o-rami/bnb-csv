@@ -32,7 +32,7 @@ public class Controller {
 
 
     public void run() {
-        view.displayHeader("Don't Wreck My House!");
+        view.displayHeader("Welcome to my BnB!");
         try {
             runApp();
         } catch (DataException ex) {

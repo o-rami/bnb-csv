@@ -17,11 +17,9 @@ public class GuestFileRepository implements GuestRepository {
         this.filePath = filePath;
     }
 
-    //FIND
     @Override
     public List<Guest> findAll() {
         ArrayList<Guest> guestList = new ArrayList<>();
-
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             reader.readLine(); // skip header
 
